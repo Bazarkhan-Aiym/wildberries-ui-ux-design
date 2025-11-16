@@ -37,4 +37,3 @@ Key recreated elements included:
 
 * *View Final Mockup (Figma):* [Link to Improved Design](https://www.figma.com/design/W6Y75WjWKgGimIpC4naunh/Untitled?node-id=126-128&t=cS3Lu9Pm1xZcDUMJ-0)
 * *View Original Mockup (Figma):* [Link to Original Recreation](https://www.figma.com/design/W6Y75WjWKgGimIpC4naunh/Untitled?node-id=18-10&p=f&t=cS3Lu9Pm1xZcDUMJ-0)
-*
