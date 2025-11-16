@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bazarkhan Aiym — Web Developer Portfolio & Blog</title>
+    
+    <meta name="description" content="Bazarkhan Aiym - IT Student and Full-Stack Enthusiast. Portfolio showcasing projects in Web Development, Data Analysis, and UI/UX.">
+    <meta name="keywords" content="Bazarkhan Aiym, IITU, Web Developer, Full-Stack, HTML, CSS, JavaScript, Python, Portfolio, Information Systems">
+    <meta property="og:title" content="Bazarkhan Aiym - Web Developer Portfolio">
+    <meta property="og:description" content="IT Student and Full-Stack Enthusiast. Projects in Web Development and Data Analysis.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="URL_ВАШЕГО_САЙТА">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="print.css" media="print"> 
+</head>
+<body>
+
+    <header>
+        <nav class="navbar container">
+            <div class="logo">Bazarkhan Aiym</div>
+            
+            <button class="menu-toggle" aria-controls="nav-links" aria-expanded="false">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main> 
+        <section id="home" class="hero container">
+            <div class="hero-text">
+                <h1>Hello, I'm Bazarkhan Aiym </h1>
+                <p>IT Student • IITU (Kazakhstan) • Information Systems Major</p>
+            </div>
+            <div class="hero-img-wrapper">
+                <img src="portrait.jpg" alt="Student working on a laptop with code on the screen, representing IT studies." class="hero-img">
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>
+                    I am a first-year student at <strong>IITU (International Information Technology University)</strong> in Kazakhstan.
+                    My major is <strong>Information Technologies</strong> and my specialization is <strong>Information Systems</strong>.
+                    I enjoy learning new technologies, improving my design and programming skills, and working on creative digital projects.
+                </p>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2>Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-card">HTML</div>
+                    <div class="skill-card">CSS</div>
+                    <div class="skill-card">JavaScript</div>
+                    <div class="skill-card">Python</div>
+                    <div class="skill-card">C++</div>
+                    <div class="skill-card">Figma</div>
+                    <div class="skill-card">MS Access</div>
+                    <div class="skill-card">Power BI</div>
+                    <div class="skill-card">Looker Studio</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2>Projects</h2>
+
+                <div class="project-card">
+                    <h3>Wildberries Product Page Redesign (UI/UX)</h3>
+                    <p>
+                        A two-stage university project: first, replicating the Wildberries product page for a Huawei charger to match the original layout and structure. The second stage was a redesign focused on improving the logical structure and overall usability.
+                    </p>
+                    
+                    <div class="project-details">
+                        <p><strong>Key Improvements:</strong> Improved reading order by placing the product name before the price, increased price font size, and added review filters ("With Photo," "With Video") for better user navigation.</p>
+                        <p><strong>Tools Used:</strong> Figma, User Persona Mapping, Prototyping</p>
+                    </div>
+
+                    <div class="project-images">
+                        <figure><img src="wildberries1.png" alt="Original Wildberries Product Page Screenshot (Step 1)"></figure>
+                        <figure><img src="wildberries2.png" alt="Redesigned Wildberries Product Page Screenshot (Step 2)"></figure>
+                    </div>
+                    
+                    <div class="project-links">
+                        <a href="https://github.com/Bazarkhan-Aiym/wildberries-ui-ux-design" class="btn" target="_blank">
+                            <i class="fab fa-github"></i> GitHub Repository
+                        </a>
+                        
+                        <a href="https://www.figma.com/design/W6Y75WjWKgGimIpC4naunh/Untitled?node-id=126-128&t=cS3Lu9Pm1xZcDUMJ-0" class="btn btn-secondary" target="_blank">
+                            <i class="fas fa-palette"></i> View on Figma
+                        </a>
+                    </div>
+                </div>
+                
+                </div>
+        </section>
+        
+        <section id="blog" class="blog">
+            <div class="container">
+                <h2>My Articles & Thoughts</h2>
+                <div class="blog-grid">
+                    
+                    <article class="blog-post">
+                        <img src="blog-python.jpg" alt="Python logo and code snippet" class="post-thumbnail">
+                        <div class="post-content">
+                            <h3>A Beginner's Guide to Python Data Structures</h3>
+                            <p class="post-meta">By Bazarkhan Aiym | Published on October 20, 2025</p>
+                            <p>An overview of Lists, Tuples, Sets, and Dictionaries in Python and when to use each one for efficient data handling...</p>
+                            <div class="post-tags">
+                                <span class="tag">#Python</span>
+                                <span class="tag">#DataStructures</span>
+                                <span class="tag">#Tutorial</span>
+                            </div>
+                            <a href="articles/python-data-structures.html" class="btn btn-small">Read More</a>
+                        </div>
+                    </article>
+
+                    <article class="blog-post">
+                        <img src="blog-dev.jpg" alt="Abstract image of a monitor displaying web code" class="post-thumbnail">
+                        <div class="post-content">
+                            <h3>Why Full-Stack Enthusiasm Matters in 2025</h3>
+                            <p class="post-meta">By Bazarkhan Aiym | Published on September 15, 2025</p>
+                            <p>Discussing the benefits of having a broad understanding of both front-end aesthetics and back-end logic...</p>
+                            <div class="post-tags">
+                                <span class="tag">#FullStack</span>
+                                <span class="tag">#Career</span>
+                                <span class="tag">#Development</span>
+                            </div>
+                            <a href="articles/full-stack-enthusiasm.html" class="btn btn-small">Read More</a>
+                        </div>
+                    </article>
+                    
+                    <article class="blog-post">
+                        <img src="blog-uiux.jpg" alt="Figma interface screenshot" class="post-thumbnail">
+                        <div class="post-content">
+                            <h3>The Role of Good UX in Data Visualization</h3>
+                            <p class="post-meta">By Bazarkhan Aiym | Published on August 10, 2025</p>
+                            <p>How intuitive user experience design can dramatically improve the clarity and impact of Power BI dashboards.</p>
+                            <div class="post-tags">
+                                <span class="tag">#UX</span>
+                                <span class="tag">#DataViz</span>
+                                <span class="tag">#Figma</span>
+                            </div>
+                            <a href="articles/ux-data-visualization.html" class="btn btn-small">Read More</a>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="resume" class="resume">
+            <div class="container">
+                <h2>Resume / CV</h2>
+                <div class="resume-box">
+                    <h3>Bazarkhan Aiym</h3>
+                    <p><strong>Email:</strong> a.bazarxan2007@gmail.com</p>
+                    <p><strong>Major:</strong> Information Technologies</p>
+                    <p><strong>Specialization:</strong> Information Systems</p>
+                    <p><strong>University:</strong> IITU (Kazakhstan)</p>
+                    <h4>Skills</h4>
+                    <ul>
+                        <li>HTML, CSS, JavaScript</li>
+                        <li>Python, C++</li>
+                        <li>Figma, MS Access, Power BI, Looker Studio</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Contact</h2>
+                <p>Email: <strong>a.bazarxan2007@gmail.com</strong></p>
+                <p>Number phone: <strong> + 7 702 184 71 80</strong></p>
+                <a class="whatsapp-btn" href="https://wa.me/77021847180" target="_blank" aria-label="Chat on WhatsApp">
+                    <i class="fab fa-whatsapp"></i> Chat on WhatsApp
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Bazarkhan Aiym. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script> 
+</body>
+</html>
